@@ -1,0 +1,23 @@
+.input-error {
+    border: #ff6347 1px solid;
+    color: tomato;
+    animation: flashError 1s ease-in-out;
+}
+
+.error-message {
+    color: tomato;
+    font-size: .75rem;
+    position: absolute;
+    top: 110%; /* Adjust as needed to position it below the input */
+    left: 0; 
+}
+
+@keyframes flashError {
+    0% {
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 99, 71, 1);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(255, 99, 71, 1);
+        box-shadow: 0px 0px 5px 0px rgba(255, 99, 71, 1);
+    }
+
+    
+}
